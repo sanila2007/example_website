@@ -1,0 +1,392 @@
+body {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Lugrasimo;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+nav a:hover{
+    color: #959595;
+}
+nav {
+    text-align: center;
+}
+
+#title_sanila {
+    text-align: center;
+    font-size: 80px;
+}
+.intro-page{
+    margin-left: 150px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-intro{
+    padding: 10px;
+}
+#p-intro p{
+    max-width: 40vh;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(211, 200, 200);
+}
+#p-intro button{
+    border: 2px solid;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 13px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+#p-intro button:hover{
+    background-color: rgb(154, 138, 138);
+}
+.about h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 10vh;
+    font-family: Ubuntu;
+}
+
+.about span {
+    color: rgb(230, 134, 39);
+    font-weight: bolder;
+}
+#tg-bots{
+    background-color: #9aeaac;
+    padding: 45px;
+    border: 2px solid;
+    width: 350px auto;
+    height: auto;
+    border-radius: 12px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+#tg-bots span{
+    text-align:right;
+    font-weight: bold;
+    font-size: 35px;
+}
+#webs span{
+    text-align:right;
+    font-weight: bold;
+    font-size: 35px;
+}
+#apps span{
+    text-align:right;
+    font-weight: bold;
+    font-size: 35px;
+}
+#blogger span{
+    text-align:right;
+    font-weight: bold;
+    font-size: 35px;
+}
+#webs{
+    padding: 45px;
+    border: 2px solid;
+    width: 350px auto;
+    height: auto;
+    border-radius: 12px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    background-color: #a1e5dd;
+}
+#apps{
+    padding: 45px;
+    border: 2px solid;
+    width: auto 350px;
+    height: auto;
+    border-radius: 12px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    background-color: #ffd3d3;
+}
+#blogger{
+    background-color: #ffffff;
+    padding: 45px;
+    border: 2px solid;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+.completed_proj_first_two{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.completed_proj_last_two{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:center;
+}
+#promote_box{
+    margin-top: 20vh;
+    border: 2px solid rgb(230, 134, 39);
+    padding: 20px;
+    width: 80vh;
+    height: max-content;
+    border-radius: 12px;
+    align-items: last baseline;
+    margin-left:auto;
+    margin-right: auto;
+}
+#promote_box h2{
+    font-family: Ubuntu;
+    color: rgb(230, 134, 39);
+    font-weight: bold;
+    text-align: center;
+}
+#promote_box p{
+    padding-top: 15px;
+    font-family: Ubuntu;
+    text-align: center;
+    font-weight: lighter;
+}
+#secure-img{
+    max-width: 320px;
+    height: auto;
+    float: right;
+    border: 4px solid white;
+    border-radius: 12px;
+    margin-left: 15px;
+}
+.fourth_page{
+    margin: 150px auto;
+    width: 70%;   
+}
+.secure-text-box{
+    color: white;
+}
+.secure-text-box h2{
+    font-size: 42px;
+}
+.secure-text-box p{
+    font-size: 16px;
+    max-width: 70vh;
+    font-weight: 200;
+}
+#sec-word{
+    color: rgb(230, 134, 39);
+    font-weight: 2500;
+}
+#sec-1-h{
+    color: rgb(230, 134, 39);
+    font-weight: 2500;
+    text-decoration: overline;
+    font-size: 60px;
+    font-family: Bebas Neue;
+}
+.build-for-you-page{
+    padding: 25px;
+    margin: 25vh;
+    width: auto;
+    height: auto;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+}
+#for-you-img{
+    max-width: 550px;
+    height: 400px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 12px;
+}
+#for-you-h{
+    font-size: 70px;
+    text-align: right;
+    margin-right: 50px;
+    font-family: Bebas Neue;
+}
+#for-you-p{
+    font-size: 16px;
+    max-width: 70vh;
+    font-weight: 200;
+    max-width: 40vh;
+    text-align: center;
+    align-items: right;
+}
+#for-you-1-h{
+    color: rgb(230, 134, 39);
+    font-weight: 2500;
+    text-decoration: overline;
+}
+#you-word{
+    color: rgb(46, 177, 116);
+    font-weight: 2500;
+    font-size: 75px;
+}
+.user-friendly-info-page{
+    margin: 150px auto;
+    width: 70%;
+}
+#user-friendly-img{
+    float: right;
+    max-width: 320px;
+    height: auto;
+    padding: 12px;
+    border: 2px solid white;
+}
+#user-friend-h{
+    font-size: 70px;
+    margin-right: 50px;
+    font-family: Bebas Neue;
+}
+#user-friend-no-2{
+    color: rgb(230, 134, 39);
+    font-weight: 2500;
+    text-decoration: overline;
+}
+#interface-word{
+    color: rgb(46, 177, 116);
+    font-weight: 2500;
+    font-size: 75px;
+}
+#user-friend-p{
+    font-size: 16px;
+    max-width: 70vh;
+    font-weight: 200;
+    max-width: 40vh;
+}
+.page-5{
+    justify-content: center;
+    align-items: center;
+}
+.page-5-heading{
+    font-size: 38px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65%;
+    font-family: Ubuntu;
+    font-weight: 600;
+}
+.page-5-heading span{
+    color: rgb(230, 134, 39);
+}
+#box-pg-five{
+    background-color: #ffffff;
+    color: black;
+}
+#box-two-pg-five{
+    background-color: #ff9565;
+    color: black;
+    font-weight: 800;
+}
+#box-three-pg-five{
+    background-color: #e5b43b;
+    color: black;
+    font-weight: 800;
+}
+#box-pg-five, #box-two-pg-five{
+    border-radius: 12px;
+    float: left;
+    clear: both;
+    display: block;
+    padding: 20px;
+    margin-top: 5px;
+    height: 35vh;
+    width: auto;
+    justify-content: center;
+    margin-left: 20%;
+}
+#box-pg-five h2, #box-two-pg-five h2, #box-three-pg-five h2{
+    font-size: 45px;
+    font-weight: 100;
+}
+#box-pg-five p, #box-two-pg-five p, #box-three-pg-five p{
+    max-width: 60vh;
+    padding: 5px;
+}
+#box-three-pg-five h4{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: REM;
+}
+#box-three-pg-five{
+    border-radius: 12px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 70vh;
+    width: auto;
+    padding: 20px;
+    align-items: center;
+}
+.icons-one{
+    display: inline-block;
+}
+.icons-two{
+    display: flex;
+}
+.icons-one i, .icons-two i{
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icons-one i:hover, .icons-two i:hover{
+    color: #959595;
+    cursor: pointer;
+}
+footer{
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.footer-div h2{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Lugrasimo;
+}
+.footer-div h4{
+    color: #959595;
+    font-size: 15px;
+}
+.footer-div a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-div a:hover{
+    color: #959595;
+}
+.copyright h4{
+    color: #959595;
+    text-align: center;
+}
